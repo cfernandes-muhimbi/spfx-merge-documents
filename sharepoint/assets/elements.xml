@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="MergeWebPart"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="14f9399e-bc24-4ee9-8495-7ffeb9954823"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nutrientsalesteamdemo.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "14f9399e-bc24-4ee9-8495-7ffeb9954823": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {}
+        }
+      }
+    },
+    "mergeWebPart": {
+      "pageUrl": "https://nutrientsalesteamdemo.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "14f9399e-bc24-4ee9-8495-7ffeb9954823": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {}
+        }
+      }
+    }
+  }
+}

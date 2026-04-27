@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.20.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "merge-web-part",
+    "libraryId": "7bcdf229-d864-40c2-9309-5d03ce377467",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "merge-web-part",
+    "solutionShortDescription": "merge-web-part description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "merge-web-part-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/mergeWebPart/MergeWebPartCommandSet.js",
+          "manifest": "./src/extensions/mergeWebPart/MergeWebPartCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MergeWebPartCommandSetStrings": "lib/extensions/mergeWebPart/loc/{locale}.js"
+  }
+}
