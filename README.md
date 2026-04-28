@@ -4,6 +4,12 @@
 
 A SharePoint Framework (SPFx) **ListViewCommandSet** extension that lets users select multiple documents in a Document Library, reorder them, and bundle them into a single merged document via a Power Automate flow.
 
+## Preview
+
+[![Merge Documents SPFx Demo](https://img.youtube.com/vi/98MBAcNA0AU/maxresdefault.jpg)](https://www.youtube.com/watch?v=98MBAcNA0AU)
+
+> Click the thumbnail to watch the demo on YouTube.
+
 ---
 
 ## Features
@@ -178,7 +184,8 @@ config/
 
 ## References
 
+- [Blog: Easily Combine Multiple SharePoint Files into One PDF — Power Automate No-Code Solution](https://clavinfernandes.wordpress.com/2026/04/27/easily-combine-multiple-sharepoint-files-into-one-pdf-power-automate-no-code-solution/)
+- [Blog: Execute Power Automate from SPFx (not as anyone)](https://clavinfernandes.wordpress.com/2025/11/16/execute-powerautomate-workflow-from-spfx-not-as-anyone/)
 - [Using Custom Dialogs with SPFx](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/extensions/guidance/using-custom-dialogs-with-spfx)
-- [Execute Power Automate from SPFx (not as anyone)](https://clavinfernandes.wordpress.com/2025/11/16/execute-powerautomate-workflow-from-spfx-not-as-anyone/)
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
 - [Heft Documentation](https://heft.rushstack.io/)
