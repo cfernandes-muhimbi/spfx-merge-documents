@@ -12,7 +12,7 @@ A SharePoint Framework (SPFx) **ListViewCommandSet** extension that lets users s
 - **Drag-to-reorder dialog** — a modal lets users drag documents into the desired merge order before sending.
 - **Blocking loading screen** — while the Power Automate flow runs, a full-screen spinner prevents accidental interaction.
 - **Result dialog with link** — on success, a dialog displays the merged document URL with an "Open Document" button that opens it in a new tab.
-- **Authenticated flow trigger** — the flow is called using `AadHttpClientFactory` (user's own identity, not a shared connection). See [this blog post](https://clavinfernandes.wordpress.com/2025/11/16/execute-powerautomate-workflow-from-spfx-not-as-anyone/) for background.
+- **Authenticated flow trigger** — the flow is called using `AadHttpClientFactory` (user's own identity, not a shared connection). See [this blog post](https://cognicoast.com/blogs/Execute%20Power%20Automate%20workflow%20from%20SPFx%20NOT%20as%20Anyone.html) for background.
 
 ---
 
@@ -48,6 +48,8 @@ const MERGED_DOCS_LIBRARY_URL: string = 'https://<YOUR-TENANT>.sharepoint.com/si
 ---
 
 ## Power Automate Flow — Expected Response
+
+See [This Blog Easily Combine Multiple SharePoint Files into One PDF Power Automate No Code Solution](https://clavinfernandes.wordpress.com/2026/04/27/easily-combine-multiple-sharepoint-files-into-one-pdf-power-automate-no-code-solution/) 
 
 The flow must return a JSON body from a **"Respond to a PowerApp or flow"** action. The extension recognises any of the following output property names (checked in order):
 
