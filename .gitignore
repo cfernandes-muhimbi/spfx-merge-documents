@@ -19,7 +19,6 @@ release/
 solution/
 temp/
 .heft/
-*.sppkg
 
 # ── Generated code ───────────────────────────────────────────────────────────
 *.resx.ts
